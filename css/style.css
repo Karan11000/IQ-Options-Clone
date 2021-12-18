@@ -1,0 +1,233 @@
+*{
+    /* background-color: rgb(244, 244, 246); */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+html{
+    /* margin-top: 10px; */
+    font-size: 62.5%;
+}
+.navbar{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width: 12rem;
+    background-color: orangered;
+    padding: 1.5rem;
+    color: white;
+    /* border: none; */
+    border-radius: 0.5rem;
+    border: 2px solid orangered;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn a{
+    color: white;
+    /* border: none; */
+    text-decoration: none;
+}
+.btn a:hover{
+    color: orangered;
+}
+.btn:hover{
+    background-color: white;
+    color: orangered;
+}
+.header{
+    font-size: 2rem;
+    width: 100%;
+  /* height: 95vh; */
+  /* padding: 4rem; */
+    height: auto;
+    background-color: #22293d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 5rem;
+}
+
+.contents{
+    width: 32rem;
+    /* padding: 4rem; */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+    /* align-items: center; */
+    align-content: space-around;
+    margin-bottom: 7rem;
+    /* padding: 4rem; */
+}
+.bottom-sp{
+    margin-bottom: 3rem;
+}
+.cbtn{
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 25rem;
+    padding: 1.5rem;
+}
+.tags{
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    /* margin: auto 0px; */
+    width: 87rem;
+    height: auto;
+    /* margin-bottom: 7rem; */
+}
+.header-img{
+    width: 100%; 
+    height: auto; 
+}
+.header-bottom{
+    /* margin-top: 4rem; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35rem;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    background-color: #161a25;
+    color: white;
+    font-size: 1.7rem;
+    /* border: 2px solid red; */
+    /* margin-bottom: 15rem; */
+}
+.items-header-bottom{ 
+       width: 41.4rem;
+
+}
+.grey{
+    color: #aeb2be;
+}
+.bold{
+    font-size: 4rem;
+}
+.bottom{
+    /* width: 100%; */
+    margin-bottom: 32px;
+}
+
+.container{
+    padding-top: 10rem;
+    background-color: rgb(244, 244, 246);
+    height: auto;
+    text-align: center;
+    margin-bottom: 20rem;
+    /* border: 2px solid green; */
+    /* margin-bottom: 10rem; */
+}
+.container p{
+    color: #4f566b;
+    font-size: 3.2rem;
+}
+.container-bottom{
+    /* background-color: rgb(244, 244, 246);
+    height: 75rem; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: space-around; */
+    justify-content: space-around;
+    align-content: space-around;
+    /* margin: 50rem; */
+}
+.cbottom-item{
+    background-color: white;
+    width: 22.4rem;
+    height: 30rem;
+    text-align: center;
+    margin: 2rem;
+    
+}
+.images{
+    width: 100%;
+    border-end-end-radius: 50px;
+    border-end-start-radius: 50px;
+}
+.editorial{
+    text-align: center;
+    height:auto;
+}
+.editorial p{
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+}
+.edicontainer{
+    text-align: start;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-bottom: 5rem;
+    margin-bottom: 7rem;
+}
+.video1{
+    height: auto;
+    width: 53.6rem;
+    /* border: 2px solid green; */
+}
+.video-text{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+}
+.form{
+    /* width: 47.2rem; */
+    padding-top: 7rem;
+    background-color: rgb(244, 244, 246);
+    height: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.rform{
+    width: 30rem;
+    height: auto;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.boxes{
+    border-radius: 7px;
+    padding: 1rem;
+    width: 80%;
+    border: 2px solid black;
+}
+input:focus{
+    border: none;
+    border: 3px solid orangered;
+    padding: 1rem;
+    /* padding: 20rem; */
+}
+.bottom1{
+    margin-bottom: 0.2rem;
+}
+.warning{
+    text-align: center;
+    height: 15rem;
+}
+.warning p{
+    font-size: 1.5rem;
+}
