@@ -4,7 +4,9 @@
     padding: 0px;
     box-sizing: border-box; 
 }
-
+body{
+    font-family:arial,sans-serif;
+  }
 html{
     /* margin-top: 10px; */
     font-size: 62.5%;
@@ -71,9 +73,27 @@ html{
     margin-bottom: 7rem;
     /* padding: 4rem; */
 }
+
+/*------------->>>>>>>>> Utility classes <<<<<<<<<<<<----------------*/
+
 .bottom-sp{
     margin-bottom: 3rem;
 }
+.grey{
+    color: #aeb2be;
+}
+.bold{
+    font-size: 4rem;
+}
+.bottom{
+    /* width: 100%; */
+    margin-bottom: 32px;
+}
+.bottom1{
+    margin-bottom: 0.2rem;
+}
+
+/*------------->>>>>>>>> Utility classes <<<<<<<<<<<<----------------*/
 .cbtn{
     background-color: orangered;
     color: white;
@@ -114,18 +134,8 @@ html{
     /* margin-bottom: 15rem; */
 }
 .items-header-bottom{ 
-       width: 41.4rem;
+    width: 41.4rem;
 
-}
-.grey{
-    color: #aeb2be;
-}
-.bold{
-    font-size: 4rem;
-}
-.bottom{
-    /* width: 100%; */
-    margin-bottom: 32px;
 }
 
 .container{
@@ -220,9 +230,6 @@ input:focus{
     border: 3px solid orangered;
     padding: 1rem;
     /* padding: 20rem; */
-}
-.bottom1{
-    margin-bottom: 0.2rem;
 }
 .warning{
     text-align: center;
